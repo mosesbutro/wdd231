@@ -18,7 +18,7 @@ listViewButton.addEventListener('click', (e) => {
 });
 
 async function getMemberData() {
-    const response = await fetch('https://mosesbutro.github.io/wdd231/chamber/scripts/members.json');
+    const response = await fetch('https://mosesbutro.github.io/wdd231/chamber/data/members.json');
     const data = await response.json();
     displayMembers(data)
 }

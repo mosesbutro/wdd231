@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Awake Security Limited",
+        "tagLine": "Go To Sleep...We Are Awake",
+        "address": "486, 2nd Avenue Gwarinpa",
+        "phoneNumber": "(+234) 803-3244-969",
+        "website": "https://awakesecurityltd.com/",
+        "image": "images/awake_security.png",
+        "mebershipLevel": "Gold"
+    },
+    {
+        "name": "Magna Eye Care",
+        "address":"2, Ado-Ekiti Close, Area 11, Garki",
+        "phoneNumber": "(+234) 809-7834-038",
+        "websiteUrl": "https://magnaeyecare.com/",
+        "imageUrl": "images/magna_eye.png",
+        "mebershipLevel": "Gold"
+    },
+    {
+        "name": "Jevinik Restaurant",
+        "address": "494 Bangui Street, Wuse 2",
+        "phoneNumber": "(+234) 701-5863-699",
+        "websiteUrl": "https://www.jevinik.com/",
+        "imageUrl": "images/jevinik_restaurant.png",
+        "mebershipLevel": "Gold"  
+    },
+    {   "name": "Prime Pharmacy",
+        "address": "1, Lord Lugard St, Asokoro",
+        "phoneNumber": "(+234) 908-5552-223",
+        "websiteUrl": "https://primepharmacyng.com/",
+        "imageUrl": "images/prime_pharmacy.png",
+        "mebershipLevel": "Gold"
+    },
+    {
+        "name": "Alibert Furnitures",
+        "address": "30 Idu Industrial Layout, Lifecamp",
+        "phoneNumber": "(+234) 704-3420-723",
+        "websiteUrl": "https://alibertfurniture.com/",
+        "imageUrl": "images/alibert_furnitures.png",
+        "mebershipLevel": "Gold"
+    },
+    {
+        "name": "Flexisaf Edusoftware",
+        "address": "3, Egbedi Close, Garki 2.",
+        "phoneNumber": "(+234) 909-6731-419",
+        "websiteUrl": "https://flexisaf.com/",
+        "imageUrl": "images/flexisaf.png",
+        "mebershipLevel": "Member"
+    },
+    {
+        "name": "Wiils Parts Automotive Parts",
+        "address": "Shop A9/100, New Motor Spare Parts Market, Zuba",
+        "phoneNumber": "(+234) 701-6036-776",
+        "websiteUrl": "https://www.willsparts.com.ng/",
+        "imageUrl": "images/willspart.png",
+        "mebershipLevel": "Member"
+    },
+    {
+        "name": "Accurate Paints",
+        "address": "Plot 2082, A.Y.A. Roundabout, Asokoro",
+        "phoneNumber": "(+234) 803-5397-991",
+        "websiteUrl": "https://www.accuratepaints.com/",
+        "imageUrl": "images/accurate_paints.png",
+        "mebershipLevel": "Member"
+    }
+]
