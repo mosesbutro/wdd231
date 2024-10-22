@@ -1,5 +1,5 @@
 const baseUrl = '//api.openweathermap.org/data/2.5';
-const apiKey = 'db9de8e006252fe313f38b494f6dfb6a';
+const apiKey = '5f26dd7877e1ea3fdcfadc9cd7e20adf';
 const lat = '40.65';
 const lon = '6.64';
 const currentWeatherUrl = `${baseUrl}/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
