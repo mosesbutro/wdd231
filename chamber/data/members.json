@@ -10,6 +10,7 @@
     },
     {
         "name": "Magna Eye Care",
+        "tagLine": "We care about your eye health!",
         "address":"2, Ado-Ekiti Close, Area 11, Garki",
         "phone": "(+234) 809-7834-038",
         "websiteUrl": "https://magnaeyecare.com/",
@@ -18,13 +19,15 @@
     },
     {
         "name": "Jevinik Restaurant",
+        "tagLine": "Home Cooked Meals Like No Other!",
         "address": "494 Bangui Street, Wuse 2",
         "phone": "(+234) 701-5863-699",
         "websiteUrl": "https://www.jevinik.com/",
         "imageUrl": "images/jevinik_restaurant.png",
         "membershipLevel": "Gold"  
     },
-    {   "name": "Prime Pharmacy",
+    {   "name": "Prime Pharmacy & Superstores",
+        "tagLine": "One-Stop Shop For Your Medical And Groceries Needs.",
         "address": "1, Lord Lugard St, Asokoro",
         "phone": "(+234) 908-5552-223",
         "websiteUrl": "https://primepharmacyng.com/",
@@ -33,6 +36,7 @@
     },
     {
         "name": "Alibert Furnitures",
+        "tagLine": "Furnitures Crafted With You In Mind.",
         "address": "30 Idu Industrial Layout, Lifecamp",
         "phone": "(+234) 704-3420-723",
         "websiteUrl": "https://alibertfurniture.com/",
@@ -41,6 +45,7 @@
     },
     {
         "name": "Flexisaf Edusoftware",
+        "tagLine": "Leveraging Technology To Reinvent Learning",
         "address": "3, Egbedi Close, Garki 2.",
         "phone": "(+234) 909-6731-419",
         "websiteUrl": "https://flexisaf.com/",
@@ -49,6 +54,7 @@
     },
     {
         "name": "Wiils Parts Automotive Parts",
+        "tagLine": "Automotive Warehouse For Genuine Parts!",
         "address": "Shop A9/100, New Motor Spare Parts Market, Zuba",
         "phone": "(+234) 701-6036-776",
         "websiteUrl": "https://www.willsparts.com.ng/",
@@ -57,6 +63,7 @@
     },
     {
         "name": "Accurate Paints",
+        "tagLine": "Paint With Confidence!",
         "address": "Plot 2082, A.Y.A. Roundabout, Asokoro",
         "phone": "(+234) 803-5397-991",
         "websiteUrl": "https://www.accuratepaints.com/",
