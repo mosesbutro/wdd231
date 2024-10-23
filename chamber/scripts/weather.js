@@ -38,8 +38,8 @@ function populateIcon(weather) {
 function populateDetail(weather, main, sys) {
     currentWeatherDiv.innerHTML = `
         <p>${Math.round(main.temp)}&degF ${weather.main}</p>
-        <p>High: ${Math.round(main.temp_max)}&deg; F</p>
-        <p>Low: ${Math.round(main.temp_min)}&deg; F</p>
+        <p>High: ${Math.round(main.temp_max)}&deg; C</p>
+        <p>Low: ${Math.round(main.temp_min)}&deg; C</p>
         <p>Humidity: ${main.humidity}%</p>
         <p>Sunrise: ${getHourMinute(sys.sunrise)}</p>
         <p>Sunset: ${getHourMinute(sys.sunset)}</p>
@@ -79,9 +79,9 @@ function populateForecast(list) {
         const day3WeekDay = addDay(day2WeekDay);
 
         weatherForecastDiv.innerHTML = `
-            <p>Tomorrow: <span>${Math.round(day1)}&deg;F</span></p>
-            <p>${getWeekday(day2WeekDay)}: <span>${Math.round(day2)}&deg;F</span></p>
-            <p>${getWeekday(day3WeekDay)}: <span>${Math.round(day2)}&deg;F</span></p>
+            <p>Tomorrow: <span>${Math.round(day1)}&deg;C</span></p>
+            <p>${getWeekday(day2WeekDay)}: <span>${Math.round(day2)}&deg;C</span></p>
+            <p>${getWeekday(day3WeekDay)}: <span>${Math.round(day2)}&deg;C</span></p>
         `;
     }
 }
