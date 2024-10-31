@@ -1,0 +1,114 @@
+:root {
+    --primary-color: #1b3358;
+    --secondary-color: #f1916d;
+    --accent1-color: #bd83b8;
+    --accent2-color: #473e66;
+    --subtle-color: #fcfafa;
+}
+
+.raleway-400 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playwrite-400 {
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    margin: 0.5rem 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    min-height: 10rem;
+    width: 100%;
+    background-color: rgb(235, 244, 242);
+}
+
+.card h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--subtle-color);
+    font-size: 1.1em;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.two-column {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.two-column div {
+    padding: 1rem;
+}
+
+.primary {
+    color: var(--subtle-color);
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--subtle-color);
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    color: var(--subtle-color);
+    background-color: var(--accent2-color);
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 10px;
+    display: block;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+    border-color: var(--accent1-color);
+    color: #fcfafa;
+}
+
+.active {
+    background-color: var(--primary-color);
+    color: var(--subtle-color);
+}
+
+.wire-frames img {
+    width: 100%;
+    height: auto;
+}
