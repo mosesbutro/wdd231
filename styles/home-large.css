@@ -1,0 +1,54 @@
+@media (max-width: 600px) {
+    header h1 {
+        color: var(--subtle-color);
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .banner img{
+        margin-left: 15px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation.active{
+        display: block;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        top: unset;
+        right: unset;
+        width: unset;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .open li {
+        display: block;
+    }
+
+    .two-cards {
+        grid-template-columns: 1fr;
+        
+    }
+
+    #menu::before {
+        color: var(--subtle-color);
+        content: "☰";
+        padding: 5px;
+    }
+    
+    #menu.open::before {
+        content: "❎";
+        border: none;
+        padding: 0;
+    } 
+}

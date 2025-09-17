@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>WDD 231 | Home Page | Moses Butro Jeremiah</title>
+        <meta name="description" content="WDD 231 | Home Page | Moses Butro Jeremiah">
+        <meta name="author" content="Moses Butro Jeremiah">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/home-large.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;700&display=swap"
+          rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
+
+        <!-- Scripts -->
+        <script src="scripts/base.js" defer></script>
+        <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/courses.js" defer></script>
+    </head>
+    <body class="montserrat-400">
+        <header>
+            <div class="banner">
+                <img src="images/logo.png" alt="Site Logo" width="200" height="258">
+                <h1>Moses Butro Jeremiah</h1>
+            </div>
+            <button id="menu" title="menu" aria-label="Toggle navigation"></button>
+            <nav class="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a id="home" href="index.html" class="active">Home</a></li>
+                    <li><a id="chamber" href="#">Chamber Project</a></li>
+                    <li><a id="final" href="#">Final Project</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <div class="home"><h1>Home</h1></div>
+        <div class="card-container two-cards">
+            <section class="card">
+                <h2>About Me</h2>
+                <p class="about-me">Hello! My name is Moses Butro Jeremiah, and I am currently pursuing a Bachelor’s degree in Software Development. I bring over
+                ten years of professional experience in banking and customer service management, and I am passionate about applying
+                technology to solve real-world problems. My academic goal is to develop strong technical and problem-solving skills that
+                will prepare me to contribute to innovative digital and geospatial solutions in the future.
+                </p>
+                
+            </section>
+            <section class="card">
+                <h2>Student Photo</h2>
+                <div class="location">
+                    <img src="images/student-photo.jpg" alt="Student Photo" width="230" height="447">
+                </div>
+            </section>
+        </div>
+        <div class="card-container">
+            <section class="card">
+                <h2>Web and Computer Programming Certificate <span id="credits-remaining"></span></h2>
+                <div class="small-nav">
+                    <ul>
+                        <li><a id="all-courses" href="index.html#/" class="active">All</a></li>
+                        <li><a id="cse-courses" href="index.html#/">CSE</a></li>
+                        <li><a id="wdd-courses" href="index.html#/">WDD</a></li>
+                    </ul>
+                </div>
+                <div id="courses">
+                
+                </div>
+                <p id="total-credits"></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#" aria-label="Linkedin"><img src="images/linkedin-icon.png" alt="Linkedin icon"></a>
+            <a href="#" aria-label="Github"><img src="images/github-icon.png" alt="Github icon"></a>
+            <a href="#" aria-label="X"><img src="images/x-icon.png" alt="X icon"></a> 
+        </div>
+        
+        <p>&copy;<span id="current-year"></span> | Moses Butro Jeremiah | Abuja, Nigeria</p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+</html>

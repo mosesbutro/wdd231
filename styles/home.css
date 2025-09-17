@@ -1,0 +1,243 @@
+/* HEADER */
+header {
+    text-align: center;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-top: 1rem;
+    position: relative;
+}
+
+header h1 {
+    color: var(--subtle-color);
+    margin-left: 1rem;
+}
+
+header .banner {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    align-items: center;
+    text-shadow: 5px 5px 5px var(--secondary-color);
+}
+
+header .banner img {
+    width: auto;
+    height: 6rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px var(--secondary-color);
+}
+
+/* NAVIGATION */
+.navigation {
+    margin-top: 1rem;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    right: 0;
+}
+
+.navigation li {
+    display: block;
+}
+
+.navigation a {
+    color: var(--subtle-color);
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+.navigation a:hover, .navigation a.active {
+    color: var(--subtle-color);
+    border-color: var(--accent1-color);
+    background-color: var(--primary-color);
+}
+
+.small-nav {
+    width: 100%;
+    min-width: 300px;
+    border-bottom: 1px solid var(--secondary-color);
+    background-color: aqua;
+    
+}
+
+.small-nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 0.5rem 0.5rem;
+    justify-items: center;
+}
+
+.small-nav li {
+    display: block;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+.small-nav a {
+    color: var(--subtle-color);
+    text-decoration: none;
+    padding: 5px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.small-nav a:hover {
+    box-shadow: 3px 3px 5px var(--accent2-color);
+}
+
+.open li {
+    display: block;
+}
+
+#menu {
+    display: none;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 0.25rem;
+    right: 0.5rem;
+}
+
+#total-credits{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+.card-container {
+    padding: 0 1rem;
+}
+
+.two-cards {
+    padding: 0.5rem 1rem;
+    display: grid; 
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 1rem;
+}
+
+.about-me {
+    margin: 5px;
+    padding: 10px 7px;
+    text-align: justify;
+}
+
+.card {
+    margin: 0.5rem 0;
+    border: 1px solid var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 10rem;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--subtle-color);
+    font-size: 1.1em;
+}
+
+.card h2 span {
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.card ul {
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.location {
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+}
+
+.location img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.location h5 {
+    padding-top: 5px;
+}
+
+#courses {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.course {
+    width: 350px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--accent2-color);
+    background-color: white;
+}
+
+.sub-nav-selected {
+    color: var(--subtle-color);
+    background-color: var(--primary-color);
+}
+
+.completed {
+    color: var(--secondary-color);
+    background-color: var(--accent1-color);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-top: 2em;
+    padding: 1px;
+}
+
+.social-icons{
+    background-color: white;
+    padding: 5px;
+}
+
+.home{
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+
+footer p {
+    margin: 0.5em;
+    color: var(--subtle-color);
+}
