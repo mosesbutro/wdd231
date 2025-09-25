@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 231 | Abuja Chamber of Commerce | Moses Butro Jeremiah</title>
+    <meta name="description" content="WDD 231 | Abuja Chamber of Commerce | Moses Butro Jeremiah">
+    <meta name="author" content="Moses Butro Jeremiah">
+    <meta property="og:title" content="WDD 231 | Abuja Chamber of Commerce | Moses Butro Jeremiah">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mosesbutro.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://mosesbutro.github.io/wdd231/chamber/directory.html">
+
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="../favicon.ico">
+
+    <script src="scripts/directory.js" defer></script>
+    <script src="../scripts/getdates.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Abuja Chamber of Commerce" width="130" height="100">
+        <div class="banner">
+            <h1>Abuja</h1>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <button id="menu" title="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a id="home" href="index.html">Home</a></li>
+                <li><a id="directory" class="active" href="directory.html">Directory</a></li>
+                <li><a id="join" href="join.html">Join</a></li>
+                <li><a id="discover" href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Member Directory</h1>
+        <div class="view-switcher">
+            <img id="grid-view-button" class="active" src="images/grid-view.webp" alt="Grid View">
+            <img id="list-view-button" src="images/list-view.webp" alt="List View">
+        </div>
+        <div id="grid-view"></div>
+        <div id="list-view"></div>
+    </main>
+    <footer>
+        <div class="commerce-info">
+            <div>Abuja Chamber of Commerce</div>
+            <div>40 Independence Layout</div>
+            <div>Abuja, FCT</div>
+            <div>info@abujacc-ng.gov</div>
+            <div>(234) 803-1001-615</div>
+        </div>
+        <div class="social-media">
+            <img src="images/facebook.webp" alt="Facebook" width="32" height="32">
+            <img src="images/instagram.webp" alt="Instagram" width="32" height="32">
+            <img src="images/linkedin-_1_.webp" alt="LinkedIn" width="32" height="32">
+        </div>
+        <div class="school-info">
+            <div>WDD231 Class Project</div>
+            <div>Moses Butro Jeremiah</div>
+            <div>&copy;
+                <span id="current-year"></span>
+                Abuja Chamber of Commerce
+            </div>
+            <div>
+                <span id="last-modified"></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

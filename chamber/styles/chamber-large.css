@@ -1,0 +1,94 @@
+@media (min-width: 43.5em) {
+
+    header {
+        grid-template-columns: 1fr 2fr 3fr;
+    }
+
+    header h1 {
+        color: var(--subtle-color);
+        padding-left: 60px;
+    }
+
+    main h1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        position: unset;
+    }
+
+    .navigation ul {
+        flex-direction: row;
+        position: unset;
+        top: unset;
+        right: unset;
+        width: unset;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: block;
+        width: unset;
+    }
+
+    /*Home Page*/
+    .card-container {
+        display: grid;
+        grid-template-columns: 3fr 2fr 2fr;
+        grid-gap: 1rem;
+    }
+
+    .card-container-spotlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    /*Join Page*/
+    .form-wrapper {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-gap: 1rem;
+    }
+
+    /*Discover Page*/
+    .discover {
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+        grid-gap: 1rem;
+    }
+
+    .discover-photos figcaption {
+        padding-top: 0.5rem;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-container img {
+        transform: scale(0.96);
+        border-radius: 0;
+        box-shadow: 5px 5px 5px var(--secondary-color);
+        transition: transform 0.2s ease-in-out, border-radius 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .image-container img:hover {
+        transform: scale(1);
+        border-radius: 10px;
+        box-shadow: none;
+    }
+}
