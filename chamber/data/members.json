@@ -5,7 +5,7 @@
         "address": "486, 2nd Avenue Gwarinpa",
         "phone": "(+234) 803-3244-969",
         "websiteUrl": "https://awakesecurityltd.com/",
-        "imageUrl": "images/awake_security.png",
+        "imageUrl": "images/awake_security.webp",
         "membershipLevel": "Gold"
     },
     {
@@ -14,7 +14,7 @@
         "address": "2, Ado-Ekiti Close, Area 11, Garki",
         "phone": "(+234) 809-7834-038",
         "websiteUrl": "https://magnaeyecare.com/",
-        "imageUrl": "images/magna_eye.png",
+        "imageUrl": "images/magna_eye.webp",
         "membershipLevel": "Gold"
     },
     {
@@ -23,7 +23,7 @@
         "address": "494 Bangui Street, Wuse 2",
         "phone": "(+234) 701-5863-699",
         "websiteUrl": "https://www.jevinik.com/",
-        "imageUrl": "images/jevinik_restaurant.png",
+        "imageUrl": "images/jevinik_restaurant.webp",
         "membershipLevel": "Gold"
     },
     {
@@ -32,7 +32,7 @@
         "address": "1, Lord Lugard St, Asokoro",
         "phone": "(+234) 908-5552-223",
         "websiteUrl": "https://primepharmacyng.com/",
-        "imageUrl": "images/prime_pharmacy.png",
+        "imageUrl": "images/prime_pharmacy.webp",
         "membershipLevel": "Silver"
     },
     {
@@ -41,7 +41,7 @@
         "address": "30 Idu Industrial Layout, Lifecamp",
         "phone": "(+234) 704-3420-723",
         "websiteUrl": "https://alibertfurniture.com/",
-        "imageUrl": "images/alibert_furnitures.png",
+        "imageUrl": "images/alibert_furnitures.webp",
         "membershipLevel": "Gold"
     },
     {
@@ -50,7 +50,7 @@
         "address": "3, Egbedi Close, Garki 2.",
         "phone": "(+234) 909-6731-419",
         "websiteUrl": "https://flexisaf.com/",
-        "imageUrl": "images/flexisaf.png",
+        "imageUrl": "images/flexisaf.webp",
         "membershipLevel": "Silver"
     },
     {
@@ -59,7 +59,7 @@
         "address": "Shop A9/100, New Motor Spare Parts Market, Zuba",
         "phone": "(+234) 701-6036-776",
         "websiteUrl": "https://www.willsparts.com.ng/",
-        "imageUrl": "images/willspart.png",
+        "imageUrl": "images/willspart.webp",
         "membershipLevel": "Member"
     },
     {
@@ -68,7 +68,7 @@
         "address": "Plot 2082, A.Y.A. Roundabout, Asokoro",
         "phone": "(+234) 803-5397-991",
         "websiteUrl": "https://www.accuratepaints.com/",
-        "imageUrl": "images/accurate_paints.png",
+        "imageUrl": "images/accurate_paints.webp",
         "membershipLevel": "Member"
     }
 ]

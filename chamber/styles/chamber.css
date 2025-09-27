@@ -129,12 +129,17 @@ header img {
 footer {
     margin-top: 1.5em;
     display: block;
+    gap: 1rem;
     font-size: 0.8em;
     padding: 1rem;
 }
 
 footer div {
     padding: 0.25rem 0;
+    min-width: 200px;
+}
+
+.commerce-info, .school-info {
     min-width: 200px;
 }
 
@@ -152,11 +157,18 @@ footer div {
     padding: 0.5rem;
     border: 1px solid var(--secondary-color);
     border-radius: 1.5rem;
+    /* flex-shrink: 0; */
 }
 
 .social-media img:hover {
     border: 1px solid var(--accent1-color);
     cursor: pointer;
+}
+
+#current-year,
+#last-modified {
+    display: inline-block;
+    min-width: 4ch;
 }
 
 #grid-view {
