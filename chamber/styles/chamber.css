@@ -176,12 +176,14 @@ footer div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
+    min-height: 300px;
 }
 
 #list-view {
     padding-top: 1rem;
     width: 100%;
     display: none;
+    min-height: 300px;
 }
 
 #list-view table {
