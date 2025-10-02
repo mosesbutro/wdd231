@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 231 | Abuja Chamber of Commerce | Moses Butro Jeremiah</title>
+    <meta name="description"
+        content="The Abuja Chamber of Commerce project site for WDD 231 by Moses Butro Jeremiah. Explore local business insights, resources, and class project implementation.">
+    <meta name="author" content="Moses Butro Jeremiah">
+    <meta property="og:title" content="WDD 231 | Abuja Chamber of Commerce | Moses Butro Jeremiah">
+    <meta property="og:description"
+        content="Discover the Abuja Chamber of Commerce project site built for WDD 231 by Moses Butro Jeremiah. Learn about local businesses, resources, and digital solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mosesbutro.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://mosesbutro.github.io/wdd231/chamber/directory.html">
+
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="../favicon.ico">
+
+    <script src="scripts/directory.js" defer></script>
+    <script src="../scripts/getdates.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Abuja Chamber of Commerce logo" width="130" height="100">
+        <div class="banner">
+            <h1>
+                <span class="main-title">Abuja</span>
+                <span class="subtitle">Chamber of Commerce</span>
+            </h1>
+        </div>
+        <button id="menu" title="menu" aria-label="Toggle navigation"></button>
+        <nav class="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a id="home" class="active" href="index.html">Home</a></li>
+                <li><a id="directory" href="directory.html">Directory</a></li>
+                <li><a id="join" href="join.html">Join</a></li>
+                <li><a id="discover" href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <img src="images/hero.webp" alt="Abuja Chamber of Commerce" width="1100" height="709">
+      </div>
+      <div class="hero-content">
+        <h2>Abuja Chamber of Commerce</h2>
+        <p>Become a memeber and connect with local bussinesses!</p>
+      </div>
+      <div class="call-to-action">
+        <button id="call-to-action" class="body-button">Click to Join</button>
+      </div>
+      <div class="card-container">
+        <section class="card">
+          <h2>Events</h2>
+          <ul>
+            <li>Abuja International Trade fair: Oct 5 - 12th</li>
+            <li>Bussiness Networking: Oct 15th @2:30pm</li>
+            <li>MSME Conference: Nov 12th @5pm</li>
+          </ul>
+        </section>
+        <section class="card">
+          <h2>Current&nbsp;Weather</h2>
+          <div class="two-column">
+            <img id="weather-icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Current Weather" width="100" height="100">
+            <div id="weather-detail"></div>
+          </div>
+        </section>
+        <section class="card">
+          <h2>Weather&nbsp;Forecast</h2>
+          <div id="weather-forecast"></div>
+        </section>
+          </div>
+          <h2>Company Spotlight</h2>
+        <div class="card-container-spotlight">
+          <section id="spotlight1" class="card spotlight"></section>
+          <section id="spotlight2" class="card spotlight"></section>
+          <section id="spotlight3" class="card spotlight"></section>
+        </div>
+    </main>
+    <footer>
+        <div class="commerce-info">
+            <div>Abuja Chamber of Commerce</div>
+            <div>40 Independence Layout</div>
+            <div>Abuja, FCT</div>
+            <div>info@abujacc-ng.gov</div>
+            <div>(234) 803-1001-615</div>
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook.webp" alt="Facebook" width="50" height="50">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram.webp" alt="Instagram" width="50" height="50">
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">
+                <img src="images/linkedin-_1_.webp" alt="LinkedIn" width="50" height="50">
+            </a>
+        </div>
+        <div class="school-info">
+            <div>WDD231 Class Project</div>
+            <div>Moses Butro Jeremiah</div>
+            <div>&copy;
+                <span id="current-year"></span>
+                Abuja Chamber of Commerce
+            </div>
+            <div>
+                <span id="last-modified"></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
