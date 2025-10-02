@@ -17,35 +17,18 @@ header {
     align-items: center;
 }
 
+header h1 {
+    margin: 0;
+}
+
 header img {
     padding: 1rem;
     margin-bottom: 15px;
-    margin-right: 0;
 }
 
-.banner {
-    margin-left: 0;
-}
-
-.banner h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.banner .main-title {
-    font-size: 2.0rem;
-    font-weight: 700;
-}
-
-.banner .subtitle {
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-
-/*.navigation {
+.navigation {
     position: unset;
-}*/
+}
 
 .navigation ul {
     margin: 0;
@@ -55,9 +38,10 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: unset;
-    position: absolute;
-    top: 165px;
-    right: 0;
+    position: relative;
+    width: 100%;
+    /* top: 165px;
+    right: 0; */
 }
 
 .navigation li {
@@ -129,17 +113,12 @@ header img {
 footer {
     margin-top: 1.5em;
     display: block;
-    gap: 1rem;
     font-size: 0.8em;
     padding: 1rem;
 }
 
 footer div {
     padding: 0.25rem 0;
-    min-width: 200px;
-}
-
-.commerce-info, .school-info {
     min-width: 200px;
 }
 
@@ -157,7 +136,6 @@ footer div {
     padding: 0.5rem;
     border: 1px solid var(--secondary-color);
     border-radius: 1.5rem;
-    /* flex-shrink: 0; */
 }
 
 .social-media img:hover {
@@ -165,25 +143,17 @@ footer div {
     cursor: pointer;
 }
 
-#current-year,
-#last-modified {
-    display: inline-block;
-    min-width: 4ch;
-}
-
 #grid-view {
     padding-top: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
-    min-height: 300px;
 }
 
 #list-view {
     padding-top: 1rem;
     width: 100%;
     display: none;
-    min-height: 300px;
 }
 
 #list-view table {
@@ -265,7 +235,7 @@ td {
 
 .hero-content {
     position: absolute;
-    top: 30%;
+    top: 31%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
