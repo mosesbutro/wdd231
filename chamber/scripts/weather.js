@@ -1,10 +1,10 @@
-const baseUrl = '//api.openweathermap.org/data/2.5';
+const baseUrl = 'https://api.openweathermap.org/data/2.5';
 const apiKey = '5f26dd7877e1ea3fdcfadc9cd7e20adf';
 const lat = '9.0574';
 const lon = '7.4898';
 const currentWeatherUrl = `${baseUrl}/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 const weatherForecastUrl = `${baseUrl}/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
-const iconBaseUrl = '//openweathermap.org/img/wn/';
+const iconBaseUrl = 'https://openweathermap.org/img/wn/';
 
 const weatherIcon = document.querySelector('#weather-icon');
 const currentWeatherDiv = document.querySelector('#weather-detail');
