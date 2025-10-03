@@ -17,7 +17,7 @@ header {
     align-items: center;
 }
 
-header h1 {
+header h2 {
     margin: 0;
 }
 
@@ -220,6 +220,23 @@ td {
     font-size: 0.7em;
 }
 
+.banner h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.banner .main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.banner .subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 /*Home Page*/
 .hero {
     padding-top: 1rem;
@@ -238,7 +255,7 @@ td {
 
 .hero-content {
     position: absolute;
-    top: 31%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
